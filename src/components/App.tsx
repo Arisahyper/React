@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-function App() {
+const App = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="App">
-        <h1>Hello Vite + React!</h1>
+    <div className="">
+        <h1 className="text-red-600">Hello Vite + React!</h1>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count}
           </button>
