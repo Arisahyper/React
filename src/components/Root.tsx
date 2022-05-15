@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const App = () => {
+const Root = () => {
   const [count, setCount] = useState(0);
 
   return (
@@ -13,4 +13,4 @@ const App = () => {
   );
 };
 
-export { App };
+export { Root };

@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { App } from "./components/App";
+import { Root } from "./components/Root";
+import { Sub1 } from "./components/Sub1";
 
 function Router() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index element={<App />} />
-        {/* <Route path="page1" element={<SamplePage1 />} />
-        <Route path="page2" element={<SamplePage2 />} /> */}
+        <Route index element={<Root />} />
+        <Route path="sub1" element={<Sub1 />} />
       </Routes>
     </BrowserRouter>
   );
