@@ -4,6 +4,8 @@
 - Vite
 - TailwindCSS
 - pnpm
+- ESLint
+- Prettier
 
 ## Using Atomic Design
 
