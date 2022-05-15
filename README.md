@@ -3,6 +3,7 @@
 - React
 - Vite
 - TailwindCSS
+- Valtio
 - pnpm
 - ESLint
 - Prettier
