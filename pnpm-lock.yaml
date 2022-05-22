@@ -9,7 +9,7 @@ specifiers:
   autoprefixer: 10.4.7
   eslint: 8.16.0
   eslint-config-prettier: 8.5.0
-  eslint-plugin-react: 7.29.4
+  eslint-plugin-react: 7.30.0
   postcss: 8.4.14
   prettier: 2.6.2
   react: 18.1.0
@@ -35,7 +35,7 @@ devDependencies:
   autoprefixer: 10.4.7_postcss@8.4.14
   eslint: 8.16.0
   eslint-config-prettier: 8.5.0_eslint@8.16.0
-  eslint-plugin-react: 7.29.4_eslint@8.16.0
+  eslint-plugin-react: 7.30.0_eslint@8.16.0
   postcss: 8.4.14
   prettier: 2.6.2
   tailwindcss: 3.0.24
@@ -1176,8 +1176,8 @@ packages:
       eslint: 8.16.0
     dev: true
 
-  /eslint-plugin-react/7.29.4_eslint@8.16.0:
-    resolution: {integrity: sha512-CVCXajliVh509PcZYRFyu/BoUEz452+jtQJq2b3Bae4v3xBUWPLCmtmBM+ZinG4MzwmxJgJ2M5rMqhqLVn7MtQ==}
+  /eslint-plugin-react/7.30.0_eslint@8.16.0:
+    resolution: {integrity: sha512-RgwH7hjW48BleKsYyHK5vUAvxtE9SMPDKmcPRQgtRCYaZA0XQPt5FSkrU3nhz5ifzMZcA8opwmRJ2cmOO8tr5A==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
